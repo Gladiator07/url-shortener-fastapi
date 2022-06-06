@@ -1,5 +1,4 @@
 from fastapi import APIRouter, Depends, HTTPException, Header
-from typing import Optional
 from schemas import UrlSchema 
 from models import Url
 import os
